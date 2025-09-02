@@ -6,12 +6,23 @@ A walkthrough this tutorial on writing your own AI coding agent.
 
 To achieve a better understanding of agentic coding agents so that it becomes easier to point out flaws in projects like charm.
 
+
+## Impressions
+
+- pydantic-ai is a great library for building agentic coding agents with a CLI interface
+- Should watch it to see if it adds ACP support for integration with things like the zed editor.
+
 ## Reference
 
 - https://martinfowler.com/articles/build-own-coding-agent.html
 
 ## My Planned Implementation
 
-Start with an anthropic model using any-llm-sdk and eventually try using a local model.
+Start with an anthropic model using pydantic-ai to eventually integrate a local model.
 
+## Note on models
+
+- Google Gemini models work reasonably well in pydantic-ai
+- Anthropic models work well in pydantic-ai
+- granite3.3:2b Ollama model works OK in pydantic-ai. It often fails to execute the unit tests. Other ollama models did not work at all at this point in time.
 
