@@ -26,3 +26,7 @@ Start with an anthropic model using pydantic-ai to eventually integrate a local 
 - Anthropic models work well in pydantic-ai
 - granite3.3:2b Ollama model works OK in pydantic-ai. It often fails to execute the unit tests. Other ollama models did not work at all at this point in time.
 
+## TODO
+
+- Makes this a portable utility that can be executed across different projects. 
+- Make it good at file organization using a local model like granite3.3:2b
