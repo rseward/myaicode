@@ -1,0 +1,48 @@
+# Pyproject files
+venv/
+.python-version
+.idea/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# build artifacts
+dist/
+build/
+
+# Tests (unit, integration)
+.pytest_cache/
+.vscode/  # For linters/IDE features, we don't track them in this project
+
+# Logs, cache files for external tools
+*.log
+*.cache
+
+# Temporary files
+.cachedir/
+
+# IDE caches
+.pyo
+
+
+# Virtual environments specific to third-party libraries
+.venv
+myenv
+
+# Sphinx build artifacts (if applicable)
+htmlcov/
+
+# Node modules and packages (if using for package dependencies like React)
+node_modules/
+
+# Docker Compose files (if applicable, especially in a dev/CI pipeline context)
+docker-compose.yml
+
+#.gitignore for nested git repositories (if you have any), if not needed in the main repo
+
+
